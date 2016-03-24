@@ -4,11 +4,12 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  博客首页: /Home
-  作品展示: /works
-  留言打卡: /about
-  前端导航: /FrontEndGuide
-# 静心阅读: /tags
+  博客首页: /
+  所有文章: /archives
+#  作品展示: /works
+#  留言打卡: /about
+#  前端导航: /FrontEndGuide
+  静心阅读: /tags
 # 光影之路: /instagram
 # 随笔: /tags/随笔
 
@@ -24,14 +25,14 @@ favicon: /img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
-  github: "https://github.com/luuman"
-  zhihu: "https://www.zhihu.com/people/luuman"
-  weibo: "http://weibo.com/lishangmou"
-  google: "http://i.youku.com/shangmou"
-  twitter: "http://twitter.com/luuman"
-  facebook: "#"
-  rss: /atom.xml
+  #mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
+  github: "https://github.com/robin-niu"
+  #zhihu: "https://www.zhihu.com/people/luuman"
+  #weibo: "http://weibo.com/lishangmou"
+  #google: "http://i.youku.com/shangmou"
+  #twitter: "http://twitter.com/luuman"
+  #facebook: "#"
+  #rss: /atom.xml
   # linkedin: "https://www.linkedin.com/in/%E5%BF%A0%E6%88%90-%E6%9D%8E-a48562b1"
   # douban: "#"
   # google: "#"
@@ -55,20 +56,21 @@ subnav:
 
 disqus: 
   #on: true
+  on: false
   shortname: 
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
-  on: true
+  on: false
   domain: luums
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 youyan:
-  #on: true
+  on: false
   id: 
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
@@ -109,7 +111,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: 大航海 #修改more>>的文字
+excerpt_link: OnePiece #修改more>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
@@ -128,16 +130,16 @@ tagcloud: true
 
 # Blogroll, Link exchange | 友情链接
 # friends: false
-friends:
-  MOxFIVE: http://MOxFIVE.github.io/
-  DoubleV: http://www.vsay.cn/
-  兮兮: http://www.ccwebsite.com/
-  翁天信: http://blog.dandyweng.com/
-  潘利强: http://www.plqblog.com/views/index.php
-  hankin技术宅: http://www.hankin.cn/
+friends: false
+#  MOxFIVE: http://MOxFIVE.github.io/
+#  DoubleV: http://www.vsay.cn/
+#  兮兮: http://www.ccwebsite.com/
+#  翁天信: http://blog.dandyweng.com/
+#  潘利强: http://www.plqblog.com/views/index.php
+#  hankin技术宅: http://www.hankin.cn/
 
 #是否开启“关于我”。
-aboutme: 90后，水瓶座普通男青年！爱折腾，爱运动，更爱游离于错综复杂的编码与逻辑中，无法自拔。
+aboutme: false 
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -182,4 +184,4 @@ visit_counter:
 TipTitle: true
 
 # Loading
-# Loading: true
+Loading: true
